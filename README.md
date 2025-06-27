@@ -19,7 +19,7 @@ User Management
 Clone the project
 
 ```bash
-  https://github.com/Sravan-P-Thankappan/bitespeed.git
+  https://github.com/Sravan-P-Thankappan/jk-tech.git
 ```
 
 Go to the project directory
