@@ -56,4 +56,7 @@ CREATE DATABASE test;
 8. Test the api using api testing tool (eg:Postman)
    
    Base Url:
-   http://localhost:3000
+ ```bash
+     http://localhost:3000
+ ```
+   
