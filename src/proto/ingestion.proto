@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+
+package ingestion;
+
+service IngestionService{
+    rpc ProcessIngestion(ProcessIngestionReq) returns (Response);
+}
+
+
+message ProcessIngestionReq{
+    string filename = 1;
+    string reference = 2;
+    bytes fileBuffer = 3;
+}
+
+
+message Response {
+    string message  = 1;
+}
